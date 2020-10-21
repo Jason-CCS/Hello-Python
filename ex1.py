@@ -12,6 +12,6 @@ if x==y:
 if x>y:
 	print("x>y")
 if x<y:
-print("x<y")
+	print("x<y")
 
 # why 123451023408<3, 4, 5, 7, etc

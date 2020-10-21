@@ -8,4 +8,3 @@ def prod(list):
 	return reduce(multiply, list)
 
 print(prod([2, 123, 34, 2]))
-ljkasdlfkjkljl
