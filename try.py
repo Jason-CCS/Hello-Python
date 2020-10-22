@@ -1,6 +1,10 @@
-# This is first app to show Python Syntax.
-print('Hello, This is python.')
-print('What is your name?')
-yourName = input()
-print('Hello, ' + yourName + '~')
-print('Nice to meet you~')
+import sys
+
+while True:
+    print('請輸入任意值，如果輸入exit則離開:')
+    userInput = str(input())
+    if userInput == 'exit':
+        print('bye bye')
+        sys.exit(1)
+    else:
+        print('你輸入的是:' + userInput)
