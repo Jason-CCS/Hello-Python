@@ -5,15 +5,14 @@ x=?
 y=?
 並且每次皆印出x>y or x<y or x==y
 """
-print("請輸入，x=")
-x=int(input())
-print("x =",x)
-print("請輸入，y=")
-y=int(input())
-print("y =",y)
-if x==y:
-    print("x=y")
-if x>y:
-    print("x>y")
-if x<y:
-    print("x<y")
+for i in range(5):
+    x = int(input('請輸入x='))
+    print('x={}'.format(x))
+    y = int(input('請輸入y='))
+    print('y={}'.format(y))
+    if x == y:
+        print("x==y")
+    if x > y:
+        print("x>y")
+    if x < y:
+        print("x<y")
