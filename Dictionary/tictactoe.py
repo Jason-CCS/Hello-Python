@@ -13,9 +13,11 @@ def printBoard(board):
 
 for i in range(9):
     if i % 2 == 0:
-        pos = input('please enter which position you wanna put o: ')
-        gameBoard[pos] = 'o'
+        print('It is O turn. Please enter which position you wanna put: ')
+        pos = input()
+        gameBoard[pos] = 'O'
     else:
-        pos = input('please enter which position you wanna put x: ')
-        gameBoard[pos] = 'x'
+        print('It is X turn. Please enter which position you wanna put: ')
+        pos = input()
+        gameBoard[pos] = 'X'
     printBoard(gameBoard)
