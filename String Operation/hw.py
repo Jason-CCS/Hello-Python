@@ -5,7 +5,7 @@ layer = 5
 level = 4
 
 for i in range(level):
-    startNumber = i * 4 + 1
+    startNumber = i * step + 1
     endNumber = startNumber + layer * step
     for j in range(startNumber, endNumber, step):
         stars = '*' * j
