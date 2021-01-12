@@ -1,10 +1,3 @@
-def dividedBy(dividend, divisor):
-    try:
-        return dividend / divisor
-    except ZeroDivisionError:
-        print('您使用的除數是0喔~')
+t = ((1, 2, 3), (4, 5, 6))
 
-
-a = int(input('被除數='))
-b = int(input('除數='))
-print('a/b結果=' + str(dividedBy(a, b)))
+print(t[1, 1])
