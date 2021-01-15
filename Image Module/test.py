@@ -1,4 +1,6 @@
-from PIL import ImageColor
+"""
+使用Pillow操作影像
+"""
 from PIL import Image
 
 # create img
@@ -30,8 +32,8 @@ black_paste.resize((100, 100)).save('resize01.png')
 black_paste.resize((100, 500)).save('resize02.png')
 
 # rotate
-black_paste.rotate(90).save('resize90.png')
-black_paste.rotate(180).save('resize180.png')
+black_paste.rotate(90).save('rotate90.png')
+black_paste.rotate(180).save('rotate180.png')
 
 
 
