@@ -1,0 +1,117 @@
+{
+  "chart": {
+    "result": [
+      {
+        "meta": {
+          "currency": "TWD",
+          "symbol": "2330.TW",
+          "exchangeName": "TAI",
+          "instrumentType": "EQUITY",
+          "firstTradeDate": 946947600,
+          "regularMarketTime": 1639114207,
+          "gmtoffset": 28800,
+          "timezone": "CST",
+          "exchangeTimezoneName": "Asia/Taipei",
+          "regularMarketPrice": 605.0,
+          "chartPreviousClose": 608.0,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "CST",
+              "start": 1639098000,
+              "end": 1639098000,
+              "gmtoffset": 28800
+            },
+            "regular": {
+              "timezone": "CST",
+              "start": 1639098000,
+              "end": 1639114200,
+              "gmtoffset": 28800
+            },
+            "post": {
+              "timezone": "CST",
+              "start": 1639114200,
+              "end": 1639114200,
+              "gmtoffset": 28800
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "10y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1638752400,
+          1638838800,
+          1638925200,
+          1639011600,
+          1639098000
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "low": [
+                600.0,
+                597.0,
+                602.0,
+                602.0,
+                602.0
+              ],
+              "close": [
+                600.0,
+                607.0,
+                602.0,
+                608.0,
+                605.0
+              ],
+              "open": [
+                603.0,
+                602.0,
+                614.0,
+                606.0,
+                605.0
+              ],
+              "high": [
+                609.0,
+                607.0,
+                614.0,
+                608.0,
+                608.0
+              ],
+              "volume": [
+                23589363,
+                18606530,
+                20801543,
+                11039070,
+                10497451
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                600.0,
+                607.0,
+                602.0,
+                608.0,
+                605.0
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "error": null
+  }
+}
